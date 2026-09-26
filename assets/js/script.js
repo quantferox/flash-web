@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
   pLoader.style.opacity = 0;
   pLoader.addEventListener("transitionend", function () {
     pLoader.style.zIndex = "-1024";
-  });
+  }, { once: true });
 });
 
 const scrollBtn = document.querySelector(".scroll-up");
@@ -28,7 +28,7 @@ function ScrollVisibility() {
     scrollBtn.style.opacity = "1";
     scrollBtn.addEventListener("transitionend", function () {
       scrollBtn.style.zIndex = "1024";
-    });
+    }, { once: true });
     headerNavBar.style.backgroundColor = "var(--theme-panel-alpha64-color)";
     headerNavBarLogo.style.width = "80px";
   }
@@ -36,7 +36,7 @@ function ScrollVisibility() {
     scrollBtn.style.opacity = "0";
     scrollBtn.addEventListener("transitionend", function () {
       scrollBtn.style.zIndex = "-1024";
-    });
+    }, { once: true });
     headerNavBar.style.backgroundColor = "var(--theme-panel-alpha32-color)";
     headerNavBarLogo.style.width = "111px";
   }
@@ -142,7 +142,7 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       counterStatsElements.forEach((element) => {
-        const countTo = element.getAttribute("data-stats-counter");
+        const countTo = parseInt(element.getAttribute("data-stats-counter"), 10);
         animateCounterStats(element, 0, countTo, ANIMATION_DURATION);
       });
 
@@ -168,14 +168,14 @@ galleryAllImages.forEach(image => {
     modalContainer.style.transform = "translate(-50%, -50%) scale(1)";
     modalContainer.addEventListener("transitionend", function () {
       modalContainer.style.zIndex = "1024";
-    });
+    }, { once: true });
   });
 });
 
 closeBtnModal.addEventListener("click", function () {
   modalContainer.addEventListener("transitionend", function () {
     modalContainer.style.zIndex = "-1024";
-  });
+  }, { once: true });
   modalContainer.style.transform = "translate(-50%, -50%) scale(0)";
 });
 

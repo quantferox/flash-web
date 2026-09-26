@@ -1,7 +1,7 @@
 "use strict";
 
 const allLangs = ["az", "en", "ru"];
-let currentLang = allLangs[0];
+let currentLang = allLangs[1];
 let langOptions = document.querySelectorAll(".option-lang");
 const langChangeElements = document.querySelectorAll("[data-lang]");
 
