@@ -1,7 +1,0 @@
-* text=auto
-
-*.html linguist-detectable=true
-*.css  linguist-detectable=true
-*.js   linguist-detectable=true
-
-assets/plugins/** linguist-vendored=true
