@@ -78,11 +78,11 @@ const langDictionary = {
   },
   "aboutus_info_text": {
     az: "Flash şirkəti Amerikada anbar və yük daşıma xidmətlərinə istənilən biznes üçün etibarlı və sərfəli seçimdir. Delaver ştatında müxtəlif həcmli bağlamaların (e-ticarət) saxlanması üçün “A” klass anbarımız fəaliyyət göstərir. Əlavə olaraq bütün növ yüklərin, o cümlədən iri ölçülü və ağır yüklərin ABŞ daxili daşıması üçün öz avtomobil parkımız mövcuddur. Geniş tərəfdaşlar şəbəkəsi və fərdiləşdirilmiş xidmətlə yükün təhlükəsizliyini və daşınma tələblərinə uyğunluğu təmin edirik. Bağlamaların qəbul zamanı heç bir qarışıqlığın yaranmaması üçün qeydiyyat aparılır, növünə,ölçüsünə (çəkisinə) görə qruplaşdırılır və rəflərə yiğılır. Saxlanılan bağlamalar baş verə biləcək vəziyyətlərə qarşı sığortalanır. Anbarda və ərazidə daimi video müşahidə və nəzarət buraxılış məntəqəsi mövcuddur.",
-    en: "Flash company is a reliable and cost-effective choice for any business in need of storageand transportationservices in the United States. Our \"A\" grade warehouse operates in Delaware to store variousvolumes of shipments(including e-commerce). Additionally, we have our own fleet of vehicles to transport all typesof loads, includinglarge and heavy ones, within the USA. We ensure the safety of shipments and compliance withtransportationrequirements through our extensive network of partners and customized services. To avoid anyconfusion during theacceptance of shipments, we register, group, and store them on shelves according to their typeand size (weight).The stored shipments are insured against possible risks. The warehouse and the surrounding areaare under constantvideo surveillance and control.",
+    en: "Flash company is a reliable and cost-effective choice for any business in need of storage and transportation services in the United States. Our \"A\" grade warehouse operates in Delaware to store various volumes of shipments (including e-commerce). Additionally, we have our own fleet of vehicles to transport all types of loads, including large and heavy ones, within the USA. We ensure the safety of shipments and compliance with transportation requirements through our extensive network of partners and customized services. To avoid any confusion during the acceptance of shipments, we register, group, and store them on shelves according to their type and size (weight). The stored shipments are insured against possible risks. The warehouse and the surrounding area are under constant video surveillance and control.",
     ru: "Flash - надежный и экономически выгодный выбор для любого бизнеса, нуждающегося в услугах хранения и транспортировки грузов в США. Наш склад класса \"А\" расположен в Делавэре и позволяет хранить грузы разного объема, включая грузы из электронной коммерции. Кроме того, мы располагаем собственным автопарком для перевозки грузов любого типа, включая крупногабаритные и тяжеловесные грузы, по всей территории США. Мы гарантируем безопасность грузов и соблюдение требований к их транспортировке через наш обширный партнерский сет и индивидуальный подход к каждому клиенту. Чтобы избежать путаницы при приеме грузов, мы регистрируем, группируем и храним их на полках в соответствии с их типом и размером (весом). Хранимые грузы застрахованы от возможных рисков. Склад и прилегающая территория находятся под постоянным видеонаблюдением и контролем."
   },
   "counter_employees": {
-    az: "Əməkdaşlarmızın sayı",
+    az: "Əməkdaşlarımızın sayı",
     en: "Employees",
     ru: "Сотрудники"
   },
@@ -112,7 +112,7 @@ const langDictionary = {
     ru: "Услуги по доставке"
   },
   "lending_delivery_text": {
-    az: "Amerika-nın hər bir nöqtəsinə təhlükəsiz və sürətli yük çatdırılması. Ətraflı məlumat almaq üçün bizimlə əlaqə saxlamağınız xahis olunur.",
+    az: "Amerika-nın hər bir nöqtəsinə təhlükəsiz və sürətli yük çatdırılması. Ətraflı məlumat almaq üçün bizimlə əlaqə saxlamağınız xahiş olunur.",
     en: "Safe and fast delivery of goods to every corner of America. For detailed information, please contact us.",
     ru: "Безопасная и быстрая доставка товаров в любой уголок Америки. Для получения более подробной информации, пожалуйста, свяжитесь с нами."
   },
